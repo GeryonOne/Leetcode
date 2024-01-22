@@ -22,7 +22,6 @@ class Solution:
 
         return min_num
 
-
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:
         if len(matrix) == 1:
             return min(matrix[0])
