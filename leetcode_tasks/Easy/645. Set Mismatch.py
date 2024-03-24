@@ -20,6 +20,7 @@ Output: [1,2]
 
 from collections import Counter
 
+
 class Solution(object):
     def findErrorNums(self, nums):
         """
@@ -51,3 +52,6 @@ solution = Solution()
 print(solution.findErrorNums([1, 2, 2, 4]))
 print(solution.findErrorNums([2, 2]))
 print(solution.findErrorNums([1, 1]))
+
+
+# def test_find_error_nums():
